@@ -55,7 +55,7 @@ binary_sensor:
       number: 5
       mode: INPUT_PULLUP
       inverted: true
-    name: "${friendly_name} Power Button"
+    name: "${friendly_name} Button"
 
 sensor:
   - platform: uptime
